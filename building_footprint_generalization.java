@@ -2,7 +2,8 @@
 //Contact: dienes.balazs88@gmail.com
 
 //This code was prepared as an assignment for the class: Visualization Techniques of Spatial Data at TU Berlin.
-//This is a generalization method that automatically reduces the number of vertices in two-dimensional building outlines. See "balazs_dienes_generalization_report.pdf" for details.
+//This is a generalization method that automatically reduces the number of vertices in two-dimensional building outlines.
+//See "balazs_dienes_generalization_report.pdf" for details.
 
 package buildinggeneralizator;
 
@@ -49,7 +50,6 @@ class Coordinate{
 
 //Class 2
 //Building vertex coordinates are stored in a list
-
 class Building{
 
     List<Coordinate> coordinates = new ArrayList<>();
